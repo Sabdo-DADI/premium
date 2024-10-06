@@ -33,9 +33,9 @@ fun_bar() {
 }
 res1() {
    cd
-    wget https://raw.githubusercontent.com/diah082/newbie/main/Cdy/menu1.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/diah082/newbie/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pas123@Newbie menu1.zip
+    wget https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Cdy/menu2.zip
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Enc/encrypt" ; chmod +x /usr/bin/enc
+    7z x -pSabdo1Kece menu2.zip
     chmod +x menu1/*
     enc menu1/*
     mv menu1/* /usr/local/sbin
@@ -45,11 +45,6 @@ res1() {
     rm -rf /usr/local/sbin/*~
     rm -rf /usr/local/sbin/gz*
     rm -rf /usr/local/sbin/*.bak
-    rm -rf /usr/local/sbin/m-noobz
-    wget /usr/local/sbin "https://raw.githubusercontent.com/diah082/newbie/main/Cfg/m-noobz" 
-    cp m-noobz /usr/local/sbin
-    rm m-noobz*
-    chmod +x /usr/local/sbin/m-noobz
 }
 netfilter-persistent
 clear
