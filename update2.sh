@@ -35,7 +35,7 @@ res1() {
    cd
     wget https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Cdy/menu2.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Enc/encrypt" ; chmod +x /usr/bin/enc
-    7z x -pSabdo1Kece menu2.zip
+    7z x -p1 menu2.zip
     chmod +x menu2/*
     enc menu2/*
     mv menu2/* /usr/local/sbin
