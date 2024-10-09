@@ -50,8 +50,6 @@ res1() {
     cp m-noobz /usr/local/sbin
     rm m-noobz*
     chmod +x /usr/local/sbin/m-noobz
-	sed -i "s/welcome/menu/" /root/.profile
-	sed -i "s/about/menu/" /root/.profile
 }
 netfilter-persistent
 clear
