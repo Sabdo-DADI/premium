@@ -33,7 +33,7 @@ fun_bar() {
 }
 res1() {
    cd
-    wget https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Cdy/menu1.zip
+    wget https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Cdy/menu2.zip
     wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/Sabdo-DADI/premium/main/Enc/encrypt" ; chmod +x /usr/bin/enc
     7z x -pSabdo1Kece menu2.zip
     chmod +x menu2/*
@@ -45,8 +45,7 @@ res1() {
     rm -rf /usr/local/sbin/*~
     rm -rf /usr/local/sbin/gz*
     rm -rf /usr/local/sbin/*.bak
-    rm -rf /usr/local/sbin/m-noobz
-    wget /usr/local/sbin "https://raw.githubusercontent.com/Diah082/newbie/main/Cfg/m-noobz" 
+    wget /usr/local/sbin "https://raw.githubusercontent.com/diah082/newbie/main/Cfg/m-noobz" 
     cp m-noobz /usr/local/sbin
     rm m-noobz*
     chmod +x /usr/local/sbin/m-noobz
@@ -54,7 +53,7 @@ res1() {
 netfilter-persistent
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m         MENGGANTI TEMA        \e[0m"
+echo -e " \e[1;97;101m         CHANGE TEMA        \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e "  \033[1;91m update tema scritp\033[1;37m"
@@ -65,3 +64,4 @@ read -n 1 -s -r -p "Press [ Enter ] to back on menu"
 menu
 
 ###########- COLOR CODE -##############
+
